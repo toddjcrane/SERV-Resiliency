@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,8 +24,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2015 Michael Marks, Phil Callahan, Todd Crane, and Respective Owners. All rights reserved." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-GY-1Wf">
-                                <rect key="frame" x="85" y="559" width="431" height="41"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright © 2015 Michael Marks, Phil Callahan, Todd Crane, and Respective Owners. All rights reserved." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-GY-1Wf">
+                                <rect key="frame" x="20" y="539" width="560" height="61"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -39,8 +44,11 @@
                         <constraints>
                             <constraint firstItem="abq-wa-TzR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1xn-0s-o5t"/>
                             <constraint firstItem="abq-wa-TzR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="70" id="76X-T2-U97"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bHl-GY-1Wf" secondAttribute="bottom" id="F1p-9N-5B8"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GvA-rg-LVD"/>
                             <constraint firstItem="bHl-GY-1Wf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qk7-yo-2bE"/>
+                            <constraint firstItem="bHl-GY-1Wf" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="WFr-P0-zxb"/>
+                            <constraint firstItem="bHl-GY-1Wf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="YIO-mn-Z7B"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-70" id="qkh-ev-17w"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bHl-GY-1Wf" secondAttribute="bottom" id="yUr-IR-Sjy"/>
                         </constraints>

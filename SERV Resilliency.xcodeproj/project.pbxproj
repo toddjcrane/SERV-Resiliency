@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		317D6A521B278756004AAF35 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6A511B278756004AAF35 /* Skill.swift */; };
+		317D6A541B2792DE004AAF35 /* SkillDatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6A531B2792DE004AAF35 /* SkillDatabaseController.swift */; };
 		319B63021B26B98300A02C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B63011B26B98300A02C02 /* AppDelegate.swift */; };
 		319B63051B26B98300A02C02 /* SERV_Resilliency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 319B63031B26B98300A02C02 /* SERV_Resilliency.xcdatamodeld */; };
 		319B63071B26B98300A02C02 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B63061B26B98300A02C02 /* MasterViewController.swift */; };
@@ -17,6 +19,7 @@
 		319B631C1B26B98300A02C02 /* SERV_ResilliencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B631B1B26B98300A02C02 /* SERV_ResilliencyTests.swift */; };
 		319B63271B26B98300A02C02 /* SERV_ResilliencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B63261B26B98300A02C02 /* SERV_ResilliencyUITests.swift */; };
 		31BB33F91B26DD4A005F9965 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BB33F81B26DD4A005F9965 /* CloudKit.framework */; };
+		31BB343C1B27828E005F9965 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB343B1B27828E005F9965 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		317D6A511B278756004AAF35 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		317D6A531B2792DE004AAF35 /* SkillDatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillDatabaseController.swift; sourceTree = "<group>"; };
 		319B62FE1B26B98300A02C02 /* SERV Resilliency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SERV Resilliency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		319B63011B26B98300A02C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319B63041B26B98300A02C02 /* SERV_Resilliency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SERV_Resilliency.xcdatamodel; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 		319B63281B26B98300A02C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BB33F71B26DD20005F9965 /* SERV Resilliency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SERV Resilliency.entitlements"; sourceTree = "<group>"; };
 		31BB33F81B26DD4A005F9965 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		31BB343B1B27828E005F9965 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +112,12 @@
 		319B63001B26B98300A02C02 /* SERV Resilliency */ = {
 			isa = PBXGroup;
 			children = (
+				31BB343A1B27824B005F9965 /* Model */,
 				31BB33F71B26DD20005F9965 /* SERV Resilliency.entitlements */,
 				319B63011B26B98300A02C02 /* AppDelegate.swift */,
 				319B63061B26B98300A02C02 /* MasterViewController.swift */,
 				319B63081B26B98300A02C02 /* DetailViewController.swift */,
+				317D6A531B2792DE004AAF35 /* SkillDatabaseController.swift */,
 				319B630A1B26B98300A02C02 /* Main.storyboard */,
 				319B630D1B26B98300A02C02 /* Assets.xcassets */,
 				319B630F1B26B98300A02C02 /* LaunchScreen.storyboard */,
@@ -135,6 +143,15 @@
 				319B63281B26B98300A02C02 /* Info.plist */,
 			);
 			path = "SERV ResilliencyUITests";
+			sourceTree = "<group>";
+		};
+		31BB343A1B27824B005F9965 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31BB343B1B27828E005F9965 /* Model.swift */,
+				317D6A511B278756004AAF35 /* Skill.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BB343C1B27828E005F9965 /* Model.swift in Sources */,
 				319B63021B26B98300A02C02 /* AppDelegate.swift in Sources */,
 				319B63051B26B98300A02C02 /* SERV_Resilliency.xcdatamodeld in Sources */,
+				317D6A541B2792DE004AAF35 /* SkillDatabaseController.swift in Sources */,
+				317D6A521B278756004AAF35 /* Skill.swift in Sources */,
 				319B63071B26B98300A02C02 /* MasterViewController.swift in Sources */,
 				319B63091B26B98300A02C02 /* DetailViewController.swift in Sources */,
 			);
@@ -422,6 +442,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SERV Resilliency/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toddcrane.SERV-Resilliency";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +458,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SERV Resilliency/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toddcrane.SERV-Resilliency";
 				PRODUCT_NAME = "$(TARGET_NAME)";
