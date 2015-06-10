@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "319B62FD1B26B98300A02C02"
+               BuildableName = "SERV Resilliency.app"
+               BlueprintName = "SERV Resilliency"
+               ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +28,36 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "319B63161B26B98300A02C02"
+               BuildableName = "SERV ResilliencyTests.xctest"
+               BlueprintName = "SERV ResilliencyTests"
+               ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "319B63211B26B98300A02C02"
+               BuildableName = "SERV ResilliencyUITests.xctest"
+               BlueprintName = "SERV ResilliencyUITests"
+               ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "319B62FD1B26B98300A02C02"
+            BuildableName = "SERV Resilliency.app"
+            BlueprintName = "SERV Resilliency"
+            ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "319B62FD1B26B98300A02C02"
+            BuildableName = "SERV Resilliency.app"
+            BlueprintName = "SERV Resilliency"
+            ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "319B62FD1B26B98300A02C02"
+            BuildableName = "SERV Resilliency.app"
+            BlueprintName = "SERV Resilliency"
+            ReferencedContainer = "container:SERV Resilliency.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
